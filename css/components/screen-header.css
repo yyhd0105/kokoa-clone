@@ -4,6 +4,7 @@
     align-items: center;
     padding: var(--horizontal-space);
     padding-top: 45px;
+    margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -13,4 +14,23 @@
 
 .screen-header__icons span{
     margin-left: 25px;
+}
+
+.screen-header__icons span:nth-child(2) {
+    position: relative;
+}
+
+.screen-header__chatplus{
+    background-color: white;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: -12px;
+    bottom: 3px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
 }
