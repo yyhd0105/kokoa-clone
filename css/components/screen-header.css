@@ -34,3 +34,18 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+.screen-header__icons {
+    position: relative;
+}
+
+.screen-header__notice {
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: -7px;
+    bottom: 20px;
+}

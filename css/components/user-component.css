@@ -4,6 +4,7 @@
 
 .user-component {
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .user-component,
